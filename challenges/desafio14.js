@@ -1,4 +1,4 @@
 db.produtos.find({
-  ingredientes: 'picles'
+  ingredientes: "picles",
 }, 
-  { nome: 1, ingredientes: 1, _id: 0 , valoresNutricionais: { $slice: 3 }});
+  { nome: 1, ingredientes: 1, _id: 0, valoresNutricionais: { $slice: 3 } });
